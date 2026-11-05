@@ -4,7 +4,7 @@ import stylesheets from "./**/!(_*).(scss|css)";
 
 export const themeTweakerFeature = getFeature({
   // Persisted colors and saved themes are stored under this id: keep it stable.
-  id: "theme-tweaker",
+  id: "lens-theme-tweaker",
   register: (di) => {
     // Auto-discovers every `*.injectable.(ts|tsx)` file under this directory and registers
     // it. Preferred over registering injectables one by one — adding a new injectable file
